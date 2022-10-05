@@ -3,3 +3,37 @@
   padding : 0;
 }
 
+.header{
+  top: 0;
+  width: 100%;
+  background-color: #000;
+}
+
+.ListadoLink{
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link{
+  font-size: 16px;
+  margin: 10px;
+}
+
+.header a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.contenedor{
+  height: calc(100vh -50px);
+  width: 100%;
+  margin-top: 50px;
+}
+
+.bloque {
+  width: 800px;
+  height: 100vh;
+  margin: 50px auto 30px auto;
+}
